@@ -73,68 +73,88 @@
 					<hr>
 				</h5>
 
-				<div class="card card-block">
-					<h5 class="card-title">.container</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.container</h5>
 
-					<p>
-						content is centered & has a maximum width of 960px
-					</p>
+							<p>
+								content is centered & has a maximum width of 960px
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.container-{size}</h5>
+
+							<p>
+								xs: 600px, sm: 720px, md: 960px, lg: 1200px
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">.container-{size}</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.container-fluid</h5>
 
-					<p>
-						xs: 600px, sm: 720px, md: 960px, lg: 1200px
-					</p>
+							<p>
+								content stretches to full width of window
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.row</h5>
+
+							<p>
+								wrapper for cols, has a clearfix on it
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">.container-fluid</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.flex-row</h5>
 
-					<p>
-						content stretches to full width of window
-					</p>
+							<p>
+								a wrapper that displays as <i>flex</i>
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.col</h5>
+
+							<p>
+								wrap content in columns, especially useful inside .flex-row ^^
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">.row</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.col-{n}</h5>
 
-					<p>
-						wrapper for cols, has a clearfix on it
-					</p>
-				</div>
+							<p>
+								wrap content with specified width (n: 1-12). The default grid consists of 12 columns
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.col-{<a href="#breakpoints" @click.prevent="scrollTo('#breakpoints')">breakpoint</a>}-{n}</h5>
 
-				<div class="card card-block">
-					<h5 class="card-title">.flex-row</h5>
-
-					<p>
-						a wrapper that displays as <i>flex</i>
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">.col</h5>
-
-					<p>
-						wrap content in columns, especially useful inside .flex-row ^^
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">.col-{n}</h5>
-
-					<p>
-						wrap content with specified width (n: 1-12). The default grid consists of 12 columns
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">.col-{<a href="#breakpoints" @click.prevent="scrollTo('#breakpoints')">breakpoint</a>}-{n}</h5>
-
-					<p>
-						columns that break to full width at specified breakpoint
-					</p>
+							<p>
+								columns that break to full width at specified breakpoint
+							</p>
+						</div>
+					</div>
 				</div>
 
 				<h5 id="res-utils">
@@ -142,68 +162,88 @@
 					<hr>
 				</h5>
 
-				<div class="card card-block">
-					<h5 class="card-title">.mb-pull-left</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-pull-left</h5>
 
-					<p>
-						pulls content to the left (float: left)
-					</p>
+							<p>
+								pulls content to the left (float: left)
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-pull-right</h5>
+
+							<p>
+								pulls content to the right (float: right)
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">.mb-pull-right</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-clearfix</h5>
 
-					<p>
-						pulls content to the right (float: right)
-					</p>
+							<p>
+								eliminates unwanted behavior of floats. <a href="http://learnlayout.com/clearfix.html" target="_blank">read more</a>
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-center</h5>
+
+							<p>
+								centers the element its used on
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">.mb-clearfix</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-flex-center</h5>
 
-					<p>
-						eliminates unwanted behavior of floats. <a href="http://learnlayout.com/clearfix.html" target="_blank">read more</a>
-					</p>
+							<p>
+								uses flexbox to center its children vertically & horizontally
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-fullwidth</h5>
+
+							<p>
+								like the name suggests, it stretches to full width of parent
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">.mb-center</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-absolute</h5>
 
-					<p>
-						centers the element its used on
-					</p>
-				</div>
+							<p>
+								positions the element to <a href="https://css-tricks.com/absolute-positioning-inside-relative-positioning/" target="_blank">absolute</a>
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-fixed</h5>
 
-				<div class="card card-block">
-					<h5 class="card-title">.mb-flex-center</h5>
-
-					<p>
-						uses flexbox to center its children vertically & horizontally
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">.mb-fullwidth</h5>
-
-					<p>
-						like the name suggests, it stretches to full width of parent
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">.mb-absolute</h5>
-
-					<p>
-						positions the element to <a href="https://css-tricks.com/absolute-positioning-inside-relative-positioning/" target="_blank">absolute</a>
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">.mb-fixed</h5>
-
-					<p>
-						positions the element to <a href="https://css-tricks.com/absolute-positioning-inside-relative-positioning/" target="_blank">fixed</a>
-					</p>
+							<p>
+								positions the element to <a href="https://css-tricks.com/absolute-positioning-inside-relative-positioning/" target="_blank">fixed</a>
+							</p>
+						</div>
+					</div>
 				</div>
 
 				<h5 id="modifiers">
@@ -211,76 +251,100 @@
 					<hr>
 				</h5>
 
-				<div class="card card-block">
-					<h5 class="card-title">.mb-text-{<a href="#colors" @click.prevent="scrollTo('#colors')">color</a>}</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-text-{<a href="#colors" @click.prevent="scrollTo('#colors')">color</a>}</h5>
 
-					<p>
-						changes the text color of the element
-					</p>
+							<p>
+								changes the text color of the element
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-{<a href="#">size</a>}</h5>
+
+							<p>
+								can change size of an element, depending on if it supports it
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">.mb-{<a href="#">size</a>}</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-outline</h5>
 
-					<p>
-						can change size of an element, depending on if it supports it
-					</p>
+							<p>
+								changes the element's style to outlined
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-no-padding, .mb-no-margin, .mb-no-border</h5>
+
+							<p>
+								removes given attribute from element
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">.mb-outline</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-text-center, .mb-text-right, .mb-text-left, .mb-text-justify</h5>
 
-					<p>
-						changes the element's style to outlined
-					</p>
+							<p>
+								aligns text to the specified value
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-text-wrap</h5>
+
+							<p>
+								forces a text to wrap inside its container
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">.mb-no-padding, .mb-no-margin, .mb-no-border</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-text-overflow</h5>
 
-					<p>
-						removes given attribute from element
-					</p>
+							<p>
+								overflowing text gets cut off with ellipsis
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-text-underline, .mb-text-through</h5>
+
+							<p>
+								styles the text with underline or line-through
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">.mb-text-center, .mb-text-right, .mb-text-left, .mb-text-justify</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-text-bold, .mb-text-bolder, .mb-text-normal</h5>
 
-					<p>
-						aligns text to the specified value
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">.mb-text-wrap</h5>
-
-					<p>
-						forces a text to wrap inside its container
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">.mb-text-overflow</h5>
-
-					<p>
-						overflowing text gets cut off with ellipsis
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">.mb-text-underline, .mb-text-through</h5>
-
-					<p>
-						styles the text with underline or line-through
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">.mb-text-bold, .mb-text-bolder, .mb-text-normal</h5>
-
-					<p>
-						changes the thickness of the font
-					</p>
+							<p>
+								changes the thickness of the font
+							</p>
+						</div>
+					</div>
 				</div>
 
 				<h5 id="typo">
@@ -288,79 +352,103 @@
 					<hr>
 				</h5>
 
-				<div class="card card-block">
-					<h5 class="card-title">&lt;h1&gt;, &lt;h2&gt;, ... &lt;h6&gt;</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">&lt;h1&gt;, &lt;h2&gt;, ... &lt;h6&gt;</h5>
 
-					<p>
-						default HTML headings, can contain subheadings in form of a &lt;span&gt; or .sub-heading
-					</p>
+							<p>
+								default HTML headings, can contain subheadings in form of a &lt;span&gt; or .sub-heading
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.small, &lt;small&gt;</h5>
+
+							<p>
+								makes <span class="small">smaller text</span> (default: 87.5% of body text)
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">.small, &lt;small&gt;</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.strong, &lt;strong&gt;, &lt;b&gt;</h5>
 
-					<p>
-						makes <span class="small">smaller text</span> (default: 87.5% of body text)
-					</p>
+							<p>
+								makes <span class="strong">bold/strong</span> text
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mark, &lt;mark&gt;</h5>
+
+							<p>
+								<span class="mark">marks the text inside</span>
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">.strong, &lt;strong&gt;, &lt;b&gt;</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">&lt;code&gt;</h5>
 
-					<p>
-						makes <span class="strong">bold/strong</span> text
-					</p>
+							<p>
+								highlights code inside a text: <code>console.log('Hello World')</code>
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">&lt;sup&gt;, &lt;sub&gt;</h5>
+
+							<p>
+								positions text <sup>above</sup> and <sub>below</sub>
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">.mark, &lt;mark&gt;</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">&lt;blockquote&gt;</h5>
 
-					<p>
-						<span class="mark">marks the text inside</span>
-					</p>
+							<p>
+								<blockquote class="mb-no-margin">
+									Imagination is more important than knowledge.
+									– Albert Einstein
+								</blockquote>
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.font-fam-{type}</h5>
+
+							<p>
+								applies a font family on the text. types: serif, monospace
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">&lt;code&gt;</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.link-arrow</h5>
 
-					<p>
-						highlights code inside a text: <code>console.log('Hello World')</code>
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">&lt;sup&gt;, &lt;sub&gt;</h5>
-
-					<p>
-						positions text <sup>above</sup> and <sub>below</sub>
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">&lt;blockquote&gt;</h5>
-
-					<p>
-						<blockquote class="mb-no-margin">
-							Imagination is more important than knowledge.
-							– Albert Einstein
-						</blockquote>
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">.font-fam-{type}</h5>
-
-					<p>
-						applies a font family on the text. types: serif, monospace
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">.link-arrow</h5>
-
-					<p>
-						<a class="link-arrow" href="#">link with an arrow</a>
-					</p>
+							<p>
+								<a class="link-arrow" href="#">link with an arrow</a>
+							</p>
+						</div>
+					</div>
 				</div>
 
 				<h5 id="form">
@@ -368,43 +456,52 @@
 					<hr>
 				</h5>
 
-				<div class="card card-block">
-					<h5 class="card-title">.btn, &lt;button&gt;</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.btn, &lt;button&gt;</h5>
 
-					<p>
-						creates a button that can have .mb-outline, .mb-{<a href="#colors" @click.prevent="scrollTo('#colors')">color</a>}, .link-arrow, and more classes. <button class="mb-sm mb-no-margin">Button</button>
-						<button class="primary mb-sm mb-no-margin">Primary</button>
-						<button class="primary mb-sm mb-outline mb-no-margin">Outline</button>
-						<button class="primary mb-sm mb-no-margin link-arrow">Arrow</button>
-					</p>
+							<p>
+								creates a button that can have .mb-outline, .mb-{<a href="#colors" @click.prevent="scrollTo('#colors')">color</a>}, .link-arrow, and more classes. <button class="mb-sm mb-no-margin">Button</button>
+								<button class="primary mb-sm mb-no-margin">Primary</button>
+								<button class="primary mb-sm mb-outline mb-no-margin">Outline</button>
+								<button class="primary mb-sm mb-no-margin link-arrow">Arrow</button>
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">&lt;input&gt;, &lt;select&gt;, &lt;textarea&gt;</h5>
+
+							<p>
+								<input class="mb-sm" type="text" placeholder="text input">
+								<select class="mb-sm">
+									<option>option 1</option>
+									<option>option 2</option>
+								</select>
+								<textarea class="mb-sm" rows="2" placeholder="textarea" style="max-height: 3rem"></textarea>
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">&lt;input&gt;, &lt;select&gt;, &lt;textarea&gt;</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">&lt;input type=radio&gt;, &lt;input type=checkbox&gt;</h5>
 
-					<p>
-						<input class="mb-sm" type="text" placeholder="text input">
-						<select class="mb-sm">
-							<option>option 1</option>
-							<option>option 2</option>
-						</select>
-						<textarea class="mb-sm" rows="2" placeholder="textarea" style="max-height: 3rem"></textarea>
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">&lt;input type=radio&gt;, &lt;input type=checkbox&gt;</h5>
-
-					<p>
-						<label class="mb-right">
-							<input type="radio">
-							Radio button
-						</label>
-						<label>
-							<input type="checkbox">
-							Checkbox
-						</label>
-					</p>
+							<p>
+								<label class="mb-right">
+									<input type="radio">
+									Radio button
+								</label>
+								<label>
+									<input type="checkbox">
+									Checkbox
+								</label>
+							</p>
+						</div>
+					</div>
 				</div>
 
 				<h5 id="tables">
@@ -412,62 +509,81 @@
 					<hr>
 				</h5>
 
-				<div class="card card-block">
-					<h5 class="card-title">&lt;table&gt;</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">&lt;table&gt;</h5>
 
-					<p>
-						if you want to know more about HTML tables, you can <a href="https://www.w3schools.com/html/html_tables.asp">read more here</a>.
-						<br>
-						Mockingbird adds some more features to tables.
-					</p>
+							<p>
+								if you want to know more about HTML tables, you can <a href="https://www.w3schools.com/html/html_tables.asp">read more here</a>.
+								<br>
+								Mockingbird adds some more features to tables.
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.table-striped</h5>
+
+							<p>
+								creates a striped effect on the table, which helps with readability
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">.table-striped</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.table-hover</h5>
 
-					<p>
-						creates a striped effect on the table, which helps with readability
-					</p>
+							<p>
+								highlights the table row when you hover over it
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-sm</h5>
+
+							<p>
+								makes a smaller table
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">.table-hover</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-no-border</h5>
 
-					<p>
-						highlights the table row when you hover over it
-					</p>
+							<p>
+								removes all borders from the table
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-outline</h5>
+
+							<p>
+								draws a border on the outside of the table
+							</p>
+						</div>
+					</div>
 				</div>
 
-				<div class="card card-block">
-					<h5 class="card-title">.mb-sm</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.{<a href="#colors" @click.prevent="scrollTo('#colors')">color</a>}</h5>
 
-					<p>
-						makes a smaller table
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">.mb-no-border</h5>
-
-					<p>
-						removes all borders from the table
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">.mb-outline</h5>
-
-					<p>
-						draws a border on the outside of the table
-					</p>
-				</div>
-
-				<div class="card card-block">
-					<h5 class="card-title">.{<a href="#colors" @click.prevent="scrollTo('#colors')">color</a>}</h5>
-
-					<p>
-						in combination with the above class, it can color the outside border of a table
-					</p>
+							<p>
+								in combination with the above class, it can color the outside border of a table
+							</p>
+						</div>
+					</div>
 				</div>
 
 				<h5 id="legend">
@@ -475,37 +591,42 @@
 					<hr>
 				</h5>
 
-				<div class="card card-block" id="breakpoints">
-					<h5 class="card-title">
-						Breakpoints
-					</h5>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block" id="breakpoints">
+							<h5 class="card-title">
+								Breakpoints
+							</h5>
 
-					<p>
-						xs: 480px, sm: 576px, md: 720px, lg: 960px, xl: 1200px
-					</p>
-				</div>
+							<p>
+								xs: 480px, sm: 576px, md: 720px, lg: 960px, xl: 1200px
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block" id="colors">
+							<h5 class="card-title">
+								Default Colors
+							</h5>
 
-				<div class="card card-block" id="breakpoints">
-					<h5 class="card-title">
-						Default Colors
-					</h5>
-
-					<p>
-						<span class="badge primary" title="#338bff">primary</span>
-						<span class="badge secondary" title="#e9e9ee">secondary</span>
-						<span class="badge default" title="#ffffff">default</span>
-					</p>
-					<p>
-						<span class="badge success" title="#2ee67d">success</span>
-						<span class="badge warning" title="#ffd500">warning</span>
-						<span class="badge danger" title="#f05030">danger</span>
-						<span class="badge dark" title="#666677">dark</span>
-					</p>
-					<p>
-						<span class="badge light" title="#e1e1e3">light</span>
-						<span class="badge lighter" title="#f5f5f7">lighter</span>
-						<span class="badge lightest" title="#fbfbfd">lightest</span>
-					</p>
+							<p>
+								<span class="badge primary" title="#338bff">primary</span>
+								<span class="badge secondary" title="#e9e9ee">secondary</span>
+								<span class="badge default" title="#ffffff">default</span>
+							</p>
+							<p>
+								<span class="badge success" title="#2ee67d">success</span>
+								<span class="badge warning" title="#ffd500">warning</span>
+								<span class="badge danger" title="#f05030">danger</span>
+								<span class="badge dark" title="#666677">dark</span>
+							</p>
+							<p>
+								<span class="badge light" title="#e1e1e3">light</span>
+								<span class="badge lighter" title="#f5f5f7">lighter</span>
+								<span class="badge lightest" title="#fbfbfd">lightest</span>
+							</p>
+						</div>
+					</div>
 				</div>
 
 			</div>
@@ -531,19 +652,19 @@
 				this.animateScroll(offset, 200)
 			},
 			animateScroll(y, duration) {
-				let scroll = document.body.scrollTop
-	      let int = (y - scroll) / duration * 10
+				let scroll = window.pageYOffset || document.body.scrollTop
+				let int = (y - scroll) / duration * 10
 
-	      setTimeout(() => {
-	        document.body.scrollTop += int
+				setTimeout(() => {
+					window.scroll(0, scroll + int)
 
-	        if (duration === 0) {
-	          document.body.scrollTop = y + 1
-	          return
-	        }
+					if (duration === 0) {
+						window.scroll(0, y + 1)
+						return
+					}
 
-	        this.animateScroll(y, duration - 10)
-	      }, 10)
+					this.animateScroll(y, duration - 10)
+				}, 10)
 			}
 		}
 
