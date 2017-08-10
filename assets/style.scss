@@ -1,0 +1,13 @@
+// @import "../node_modules/mockingbird-sass/scss/mockingbird";
+// @import "../node_modules/mockingbird-sass/scss/config/variables";
+
+@import "mockingbird";
+
+
+.nuxt-link-exact-active {
+	color: #1a7dff !important;
+
+	&.nav-brand {
+		color: #000 !important;
+	}
+}
