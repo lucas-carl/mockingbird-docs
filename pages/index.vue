@@ -9,81 +9,55 @@
 			</div>
 		</section>
 
-		<section class="mb-sm">
+		<section class="mb-sm secondary">
 			<div class="mb-flex-center">
 				<a class="btn mb-lg mb-pull-right mb-right">view project on GitHub</a>
 				<a class="btn mb-lg primary" href="/download">Download</a>
 			</div>
 		</section>
 
-		<section class="mb-outline">
+		<section class="lighter">
 			<div class="container">
-				<p>
+				<p class="mb-text-bold">
 					Mockingbird is a front-end framework for responsive layouts and easy web development created with SASS.
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.
 				</p>
+
+				<div class="row">
+					<div class="col-sm-6">
+						<p>
+							Mockingbird makes it as easy for you to develop a website with lots of sleek features. It provides a combination of many modifiable elements and the easy handling of the native HTML elements.
+						</p>
+					</div>
+					<div class="col-sm-6">
+						<p>
+							Thanks to the its simple design, you can easily get started and build an entire website without the need to write any CSS stylesheet. The most important styling is done by the framework.
+						</p>
+					</div>
+				</div>
 			</div>
 		</section>
 
 		<section>
 			<div class="container">
-				<div class="row mb-text-center">
-					<div class="col-sm-4">
-						<img src="" alt="test">
-
-						<h4>fully responsive</h4>
-
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
-						</p>
-					</div>
-					<div class="col-sm-4">
-						<img src="" alt="test">
-
-						<h4>easy to use</h4>
-
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
-						</p>
-					</div>
-					<div class="col-sm-4">
-						<img src="" alt="test">
-
-						<h4>100% free</h4>
-
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
-						</p>
-					</div>
-				</div>
+				<p>
+					By default you have the choice betweeen 3 packages of Mockingbird:
+				</p>
 
 				<div class="row mb-text-center">
-					<div class="col-sm-4">
-						<img src="" alt="test">
-
-						<h4>customizable</h4>
-
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
-						</p>
+					<div class="col-xs-4">
+						<div class="card card-block bg-lightest">
+							Mockingbird Grid
+						</div>
 					</div>
-					<div class="col-sm-4">
-						<img src="" alt="test">
-
-						<h4>open source</h4>
-
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
-						</p>
+					<div class="col-xs-4">
+						<div class="card card-block bg-secondary">
+							Mockingbird Light
+						</div>
 					</div>
-					<div class="col-sm-4">
-						<img src="" alt="test">
-
-						<h4>test</h4>
-
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.
-						</p>
+					<div class="col-xs-4">
+						<div class="card card-block bg-success">
+							Mockingbird
+						</div>
 					</div>
 				</div>
 			</div>
