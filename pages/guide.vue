@@ -296,7 +296,7 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="card card-block">
-							<h5 class="card-title">.mb-text-center, .mb-text-right, .mb-text-left, .mb-text-justify</h5>
+							<h5 class="card-title">.mb-text-{<a href="#align" @click.prevent="scrollTo('#align')">align</a>}</h5>
 
 							<p>
 								aligns text to the specified value
@@ -331,6 +331,31 @@
 							<p>
 								styles the text with underline or line-through
 							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-shadow, .mb-shadow-{type}</h5>
+
+							<p>
+								adds a box shadow to any element:
+							</p>
+
+							<button class="mb-shadow">Button w/ shadow</button>
+						</div>
+					</div>
+					<div class="col-sm-6">
+						<div class="card card-block">
+							<h5 class="card-title">.mb-shadow-hover, .mb-shadow-{type}-hover</h5>
+
+							<p>
+								hides shadow when hovering over the element:
+							</p>
+
+							<button class="mb-shadow-hover">Button w/ shadow</button>
 						</div>
 					</div>
 				</div>
@@ -400,8 +425,10 @@
 							<h5 class="card-title">&lt;code&gt;</h5>
 
 							<p>
-								highlights code inside a text: <code>console.log('Hello World')</code>
+								highlights code inside a text:
 							</p>
+
+							<code>console.log('Hello World')</code>
 						</div>
 					</div>
 					<div class="col-sm-6">
@@ -462,24 +489,34 @@
 							<h5 class="card-title">.btn, &lt;button&gt;</h5>
 
 							<p>
-								creates a button that can have .mb-outline, .mb-{<a href="#colors" @click.prevent="scrollTo('#colors')">color</a>}, .link-arrow, and more classes. <button class="mb-sm mb-no-margin">Button</button>
-								<button class="primary mb-sm mb-no-margin">Primary</button>
-								<button class="primary mb-sm mb-outline mb-no-margin">Outline</button>
-								<button class="primary mb-sm mb-no-margin link-arrow">Arrow</button>
+								creates a button that can have .mb-outline, .mb-{<a href="#colors" @click.prevent="scrollTo('#colors')">color</a>}, .link-arrow, and more classes.
+							</p>
+
+							<p>
+								<button class="mb-sm mb-right mb-bottom">Button</button>
+								<button class="primary mb-sm mb-right mb-bottom">Primary</button>
+								<button class="primary mb-sm outline mb-right mb-bottom">Outline</button>
+								<button class="primary mb-sm mb-right mb-bottom link-arrow">Arrow</button>
 							</p>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="card card-block">
-							<h5 class="card-title">&lt;input&gt;, &lt;select&gt;, &lt;textarea&gt;</h5>
+							<h5 class="card-title">&lt;input&gt;, &lt;textarea&gt;, &lt;select&gt;</h5>
 
 							<p>
-								<input class="mb-sm" type="text" placeholder="text input">
-								<select class="mb-sm">
-									<option>option 1</option>
-									<option>option 2</option>
-								</select>
-								<textarea class="mb-sm" rows="2" placeholder="textarea" style="max-height: 3rem"></textarea>
+								<div class="form-group">
+									<input class="mb-sm" type="text" placeholder="text input">
+								</div>
+								<div class="form-group">
+									<textarea class="mb-sm" rows="2" placeholder="textarea" style="max-height: 3rem"></textarea>
+								</div>
+								<div class="form-group">
+									<select class="mb-sm">
+										<option>option 1</option>
+										<option>option 2</option>
+									</select>
+								</div>
 							</p>
 						</div>
 					</div>
@@ -602,6 +639,16 @@
 								xs: 480px, sm: 576px, md: 720px, lg: 960px, xl: 1200px
 							</p>
 						</div>
+
+						<div class="card card-block" id="align">
+							<h5 class="card-title">
+								Text alignments
+							</h5>
+
+							<p>
+								left, center, right, justify
+							</p>
+						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="card card-block" id="colors">
@@ -609,22 +656,22 @@
 								Default Colors
 							</h5>
 
-							<p>
-								<span class="badge primary" title="#338bff">primary</span>
-								<span class="badge secondary" title="#e9e9ee">secondary</span>
-								<span class="badge default" title="#ffffff">default</span>
-							</p>
-							<p>
-								<span class="badge success" title="#2ee67d">success</span>
-								<span class="badge warning" title="#ffd500">warning</span>
-								<span class="badge danger" title="#f05030">danger</span>
-								<span class="badge dark" title="#666677">dark</span>
-							</p>
-							<p>
-								<span class="badge light" title="#e1e1e3">light</span>
-								<span class="badge lighter" title="#f5f5f7">lighter</span>
+							<div>
+								<span class="badge primary mb-right mb-bottom" title="#338bff">primary</span>
+								<span class="badge secondary mb-right mb-bottom" title="#e9e9ee">secondary</span>
+								<span class="badge default mb-bottom" title="#ffffff">default</span>
+							</div>
+							<div>
+								<span class="badge success mb-right mb-bottomt" title="#2ee67d">success</span>
+								<span class="badge warning mb-right mb-bottom" title="#ffd500">warning</span>
+								<span class="badge danger mb-right mb-bottom" title="#f05030">danger</span>
+								<span class="badge dark mb-bottom" title="#666677">dark</span>
+							</div>
+							<div>
+								<span class="badge light mb-right" title="#e1e1e3">light</span>
+								<span class="badge lighter mb-right" title="#f5f5f7">lighter</span>
 								<span class="badge lightest" title="#fbfbfd">lightest</span>
-							</p>
+							</div>
 						</div>
 					</div>
 				</div>
