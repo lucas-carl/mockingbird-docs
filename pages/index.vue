@@ -11,7 +11,7 @@
 
 		<section class="mb-sm primary">
 			<div class="mb-flex-center">
-				<a class="btn mb-lg primary mb-right">view project on GitHub</a>
+				<a class="btn mb-lg primary mb-right" href="https://github.com/lucas-carl/mockingbird" target="_blank">view project on GitHub</a>
 				<a class="btn mb-lg default outline mb-shadow-hover" href="/download">Download</a>
 			</div>
 		</section>
@@ -40,7 +40,7 @@
 		<section>
 			<div class="container">
 				<p>
-					By default you have the choice betweeen 3 packages of Mockingbird:
+					By default you have the choice between 3 packages of Mockingbird:
 				</p>
 
 				<div class="row mb-text-center">

@@ -28,7 +28,27 @@
 			</div>
 		</section>
 
-		<section class="mb-outline">
+		<section class="lighter">
+			<div class="container">
+
+				<h4>Recommended Downloads</h4>
+
+				<a class="mb-right primary btn outline" href="https://unpkg.com/mb-sass@0.9.7/mockingbird.css" target="_blank" download>
+					mockingbird.css
+				</a>
+
+				<a class="mb-right mb-text-primary" href="https://unpkg.com/mb-sass@0.9.7/mockingbird-light.css" target="_blank" download>
+					mockingbird-light.css
+				</a>
+
+				<a class="mb-text-primary" href="https://unpkg.com/mb-sass@0.9.7/mockingbird-grid.css" target="_blank" download>
+					mockingbird-grid.css
+				</a>
+
+			</div>
+		</section>
+
+		<section>
 			<div class="container">
 
 				<h4>Releases</h4>
@@ -46,58 +66,58 @@
 						<tbody>
 							<tr>
 								<td>
-									<a href="#" title="mockingbird.css v0.9.7">v0.9.7</a>
+									<a href="https://unpkg.com/mb-sass@0.9.7/mockingbird.css" title="mockingbird.css v0.9.7" download>v0.9.7</a>
 								</td>
 								<td>
-									<a href="#" title="mockingbird-light.css v0.9.7">v0.9.7</a>
+									<a href="https://unpkg.com/mb-sass@0.9.7/mockingbird-light.css"title="mockingbird-light.css v0.9.7" download>v0.9.7</a>
 								</td>
 								<td>
-									<a href="#" title="mockingbird-grid.css v0.9.7">v0.9.7</a>
+									<a href="https://unpkg.com/mb-sass@0.9.7/mockingbird-grid.css" title="mockingbird-grid.css v0.9.7" download>v0.9.7</a>
 								</td>
 								<td>
-									<a href="#">release v0.9.7</a>
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<a href="#" title="mockingbird.css v0.9.6">v0.9.6</a>
-								</td>
-								<td>
-									<a href="#" title="mockingbird-light.css v0.9.6">v0.9.6</a>
-								</td>
-								<td>
-									<a href="#" title="mockingbird-grid.css v0.9.6">v0.9.6</a>
-								</td>
-								<td>
-									<a href="#">release v0.9.6</a>
+									<a href="https://github.com/lucas-carl/mockingbird/releases/tag/v0.9.7" target="_blank">release v0.9.7</a>
 								</td>
 							</tr>
 							<tr>
 								<td>
-									<a href="#" title="mockingbird.css v0.9.5">v0.9.5</a>
+									<a href="https://unpkg.com/mb-sass@0.9.6/mockingbird.css" title="mockingbird.css v0.9.6" download>v0.9.6</a>
 								</td>
 								<td>
-									<a href="#" title="mockingbird-light.css v0.9.5">v0.9.5</a>
+									<a href="https://unpkg.com/mb-sass@0.9.6/mockingbird-light.css"title="mockingbird-light.css v0.9.6" download>v0.9.6</a>
 								</td>
 								<td>
-									<a href="#" title="mockingbird-grid.css v0.9.5">v0.9.5</a>
+									<a href="https://unpkg.com/mb-sass@0.9.6/mockingbird-grid.css" title="mockingbird-grid.css v0.9.6" download>v0.9.6</a>
 								</td>
 								<td>
-									<a href="#">release v0.9.5</a>
+									<a href="https://github.com/lucas-carl/mockingbird/releases/tag/v0.9.6" target="_blank">release v0.9.6</a>
 								</td>
 							</tr>
 							<tr>
 								<td>
-									<a href="#" title="mockingbird.css v0.9.4-alpha">v0.9.4-alpha</a>
+									<a href="https://unpkg.com/mb-sass@0.9.5/mockingbird.css" title="mockingbird.css v0.9.5" download>v0.9.5</a>
 								</td>
 								<td>
-									<a href="#" title="mockingbird-light.css v0.9.4-alpha">v0.9.4-alpha</a>
+									<a href="https://unpkg.com/mb-sass@0.9.5/mockingbird-light.css"title="mockingbird-light.css v0.9.5" download>v0.9.5</a>
 								</td>
 								<td>
-									<a href="#" title="mockingbird-grid.css v0.9.4-alpha">v0.9.4-alpha</a>
+									<a href="https://unpkg.com/mb-sass@0.9.5/mockingbird-grid.css" title="mockingbird-grid.css v0.9.5" download>v0.9.5</a>
 								</td>
 								<td>
-									<a href="#">release v0.9.4-alpha</a>
+									<a href="https://github.com/lucas-carl/mockingbird/releases/tag/v0.9.5" target="_blank">release v0.9.5</a>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="https://unpkg.com/mb-sass@0.9.4-alpha/mockingbird.css"title="mockingbird.css v0.9.4-alpha" download>v0.9.4-alpha</a>
+								</td>
+								<td>
+									<a href="https://unpkg.com/mb-sass@0.9.4-alpha/mockingbird-light.css" draggable=""title="mockingbird-light.css v0.9.4-alpha" download>v0.9.4-alpha</a>
+								</td>
+								<td>
+									<a href="https://unpkg.com/mb-sass@0.9.4-alpha/mockingbird-grid.css" title="mockingbird-grid.css v0.9.4-alpha" download>v0.9.4-alpha</a>
+								</td>
+								<td>
+									<a href="https://github.com/lucas-carl/mockingbird/releases/tag/v0.9.4-alpha" target="_blank">release v0.9.4-alpha</a>
 								</td>
 							</tr>
 						</tbody>
