@@ -9,10 +9,10 @@
 			</div>
 		</section>
 
-		<section class="mb-sm secondary">
+		<section class="mb-sm primary">
 			<div class="mb-flex-center">
-				<a class="btn mb-lg mb-pull-right mb-right">view project on GitHub</a>
-				<a class="btn mb-lg primary" href="/download">Download</a>
+				<a class="btn mb-lg primary mb-right">view project on GitHub</a>
+				<a class="btn mb-lg default outline mb-shadow-hover" href="/download">Download</a>
 			</div>
 		</section>
 
@@ -30,7 +30,7 @@
 					</div>
 					<div class="col-sm-6">
 						<p>
-							Thanks to the its simple design, you can easily get started and build an entire website without the need to write any CSS stylesheet. The most important styling is done by the framework.
+							Thanks to its simple design, you can easily get started and build an entire website without the need to write any CSS stylesheet. The most important styling is done by the framework.
 						</p>
 					</div>
 				</div>

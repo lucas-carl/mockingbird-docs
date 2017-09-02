@@ -12,25 +12,6 @@
 		<section>
 			<div class="container">
 
-				<h4>Installation</h4>
-
-				<p>
-					I recommend that you load Mockingbird into your project via npm:
-				</p>
-
-				<code>npm i mockingbird-sass --save-dev</code>
-
-				<p>
-					However, if you are not experienced and just want a framework for your website, simply paste the following link in to the <i>&lt;head&gt;&lt;/head&gt;</i> section of your site:
-				</p>
-
-				<code>&lt;link rel="stylesheet" href="https://unpkg.com/mb-sass@latest/mockingbird.css"&gt;</code>
-			</div>
-		</section>
-
-		<section class="mb-outline">
-			<div class="container">
-
 				<h4>Cheat Sheet</h4>
 
 				<p>
