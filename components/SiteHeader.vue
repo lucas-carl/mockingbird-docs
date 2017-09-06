@@ -12,9 +12,9 @@
 					<router-link class="nav-item" to="/download">
 						Download
 					</router-link>
-					<!-- <router-link class="nav-item" to="/custom">
+					<router-link class="nav-item" to="/custom">
 						Customize
-					</router-link> -->
+					</router-link>
 				</div>
 				<div class="nav-right">
 					<a class="nav-item mb-text-muted hidden-sm-down" href="https://github.com/lucas-carl/mockingbird" target="_blank">

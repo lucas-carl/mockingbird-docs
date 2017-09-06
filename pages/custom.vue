@@ -11,9 +11,8 @@
 
 		<section>
 			<div class="container">
-
 				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					Start with one of the default package configurations or create your very own:
 				</p>
 
 				<div class="row mb-text-center">
@@ -42,19 +41,19 @@
 								<label>
 									<input type="checkbox" v-model="elements.grid"> Grid
 								</label>
-								<a class="hover-show" href="">?</a>
+								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
 							<div class="col-sm-4 hover-item">
 								<label>
 									<input type="checkbox" v-model="elements.typo"> Typography
 								</label>
-								<a class="hover-show" href="">?</a>
+								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
 							<div class="col-sm-4 hover-item">
 								<label>
 									<input type="checkbox" v-model="elements.forms"> Forms
 								</label>
-								<a class="hover-show" href="">?</a>
+								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
 						</div>
 
@@ -63,19 +62,19 @@
 								<label>
 									<input type="checkbox" v-model="elements.tables"> Tables
 								</label>
-								<a class="hover-show" href="">?</a>
+								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
 							<div class="col-sm-4 hover-item">
 								<label>
 									<input type="checkbox" v-model="elements.lists"> Lists
 								</label>
-								<a class="hover-show" href="">?</a>
+								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
 							<div class="col-sm-4 hover-item">
 								<label>
 									<input type="checkbox" v-model="elements.labels"> Labels
 								</label>
-								<a class="hover-show" href="">?</a>
+								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
 						</div>
 
@@ -84,19 +83,19 @@
 								<label>
 									<input type="checkbox" v-model="elements.buttons"> Buttons
 								</label>
-								<a class="hover-show" href="">?</a>
+								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
 							<div class="col-sm-4 hover-item">
 								<label>
 									<input type="checkbox" v-model="elements.misc"> Miscellaneous
 								</label>
-								<a class="hover-show" href="">?</a>
+								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
 							<div class="col-sm-4 hover-item">
 								<label>
 									<input type="checkbox" v-model="elements.utils"> Utilities
 								</label>
-								<a class="hover-show" href="">?</a>
+								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
 						</div>
 
@@ -105,31 +104,24 @@
 								<label>
 									<input type="checkbox" v-model="elements.resUtils"> Responsive Utilities
 								</label>
-								<a class="hover-show" href="">?</a>
+								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
 							<div class="col-sm-4 hover-item">
 								<label>
 									<input type="checkbox" v-model="elements.viewport"> Viewport
 								</label>
-								<a class="hover-show" href="">?</a>
+								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
 						</div>
 
 						<hr>
 
-						<div v-if="showAdvanced">
-
-							advanced
-
-							<hr>
-						</div>
-
 						<div class="flex-row">
 							<div class="col">
-								<a class="mb-text-muted" href="#" @click.prevent="showAdvanced = ! showAdvanced">advanced options</a>
+								<!-- <a class="mb-text-muted" href="#" @click.prevent="showAdvanced = ! showAdvanced">advanced options</a> -->
 							</div>
 							<div class="col">
-								<button class="mb-primary mb-pull-right" type="submit">Download</button>
+								<button class="primary mb-pull-right" type="submit">Download</button>
 								<button class="mb-no-border mb-transparent mb-text-muted mb-pull-right" type="reset">reset</button>
 							</div>
 						</div>
