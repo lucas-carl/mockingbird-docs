@@ -39,40 +39,19 @@
 						<div class="row">
 							<div class="col-sm-4 hover-item">
 								<label>
-									<input type="checkbox" v-model="elements.grid"> Grid
+									<input type="checkbox" name="grid" v-model="elements.grid"> Grid
 								</label>
 								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
 							<div class="col-sm-4 hover-item">
 								<label>
-									<input type="checkbox" v-model="elements.typo"> Typography
+									<input type="checkbox" name="typography" v-model="elements.typo"> Typography
 								</label>
 								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
 							<div class="col-sm-4 hover-item">
 								<label>
-									<input type="checkbox" v-model="elements.forms"> Forms
-								</label>
-								<!-- <a class="hover-show" href="#">?</a> -->
-							</div>
-						</div>
-
-						<div class="row">
-							<div class="col-sm-4 hover-item">
-								<label>
-									<input type="checkbox" v-model="elements.tables"> Tables
-								</label>
-								<!-- <a class="hover-show" href="#">?</a> -->
-							</div>
-							<div class="col-sm-4 hover-item">
-								<label>
-									<input type="checkbox" v-model="elements.lists"> Lists
-								</label>
-								<!-- <a class="hover-show" href="#">?</a> -->
-							</div>
-							<div class="col-sm-4 hover-item">
-								<label>
-									<input type="checkbox" v-model="elements.labels"> Labels
+									<input type="checkbox" name="forms" v-model="elements.forms"> Forms
 								</label>
 								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
@@ -81,19 +60,19 @@
 						<div class="row">
 							<div class="col-sm-4 hover-item">
 								<label>
-									<input type="checkbox" v-model="elements.buttons"> Buttons
+									<input type="checkbox" name="tables" v-model="elements.tables"> Tables
 								</label>
 								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
 							<div class="col-sm-4 hover-item">
 								<label>
-									<input type="checkbox" v-model="elements.misc"> Miscellaneous
+									<input type="checkbox" name="lists" v-model="elements.lists"> Lists
 								</label>
 								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
 							<div class="col-sm-4 hover-item">
 								<label>
-									<input type="checkbox" v-model="elements.utils"> Utilities
+									<input type="checkbox" name="labels" v-model="elements.labels"> Labels
 								</label>
 								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
@@ -102,13 +81,34 @@
 						<div class="row">
 							<div class="col-sm-4 hover-item">
 								<label>
-									<input type="checkbox" v-model="elements.resUtils"> Responsive Utilities
+									<input type="checkbox" name="buttons" v-model="elements.buttons"> Buttons
 								</label>
 								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
 							<div class="col-sm-4 hover-item">
 								<label>
-									<input type="checkbox" v-model="elements.viewport"> Viewport
+									<input type="checkbox" name="misc" v-model="elements.misc"> Miscellaneous
+								</label>
+								<!-- <a class="hover-show" href="#">?</a> -->
+							</div>
+							<div class="col-sm-4 hover-item">
+								<label>
+									<input type="checkbox" name="utilities" v-model="elements.utils"> Utilities
+								</label>
+								<!-- <a class="hover-show" href="#">?</a> -->
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-sm-4 hover-item">
+								<label>
+									<input type="checkbox" name="responsive-utilities" v-model="elements.resUtils"> Responsive Utilities
+								</label>
+								<!-- <a class="hover-show" href="#">?</a> -->
+							</div>
+							<div class="col-sm-4 hover-item">
+								<label>
+									<input type="checkbox" name="viewport" v-model="elements.viewport"> Viewport
 								</label>
 								<!-- <a class="hover-show" href="#">?</a> -->
 							</div>
@@ -180,11 +180,9 @@
 				let data = new FormData(this.$refs.customizer)
 				data.append('content', 'test')
 
-				axios.post(
-					'/custom_download.php',
-					data
-				).then((response) => {
+				axios.post('https://static.lucascarl.com/mockingbird/custom_download.php', data).then((response) => {
 					console.info(response.data)
+					this.downloadFile(response.data)
 				})
 			},
 
@@ -224,6 +222,47 @@
 						this[contents[0]][contents[1]] = true
 					}
 				}
+			},
+
+			downloadFile(url) {
+				let isChromeOrSafari = navigator.userAgent.toLowerCase().indexOf('chrome') !== -1 || navigator.userAgent.toLowerCase().indexOf('safari') !== -1
+
+				// iOS devices do not support downloading. We have to inform user about this.
+				if (/(iP)/g.test(navigator.userAgent)) {
+					alert('Your device does not support files downloading. Please try again in desktop browser.')
+
+					window.open(url, '_blank')
+					return false
+				}
+
+				// If in Chrome or Safari - download via virtual link click
+				if (isChromeOrSafari) {
+					let link = document.createElement('a')
+					link.href = url
+					link.setAttribute('target', '_blank')
+
+					if (link.download !== undefined) {
+					let fileName = url.substring(url.lastIndexOf('/') + 1, url.length)
+					link.download = fileName
+				}
+
+				if (document.createEvent) {
+					let e = document.createEvent('MouseEvents')
+					e.initEvent('click', true, true)
+					link.dispatchEvent(e)
+
+					return true
+					}
+				}
+
+				// Force file download (whether supported by server).
+				if (url.indexOf('?') === -1) {
+					url += '?download'
+				}
+
+				window.open(url, '_blank')
+
+				return true
 			}
 		}
 
