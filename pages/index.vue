@@ -7,16 +7,22 @@
 					<span>A front-end framework for responsive layouts and easy web development</span>
 				</h2>
 			</div>
-		</section>
 
-		<section class="mb-sm primary">
-			<div class="mb-flex-center">
-				<a class="btn mb-lg primary mb-right" href="https://github.com/lucas-carl/mockingbird" target="_blank">view project on GitHub</a>
-				<a class="btn mb-lg default outline mb-shadow-hover" href="/download">Download</a>
+			<div class="mb-flex-center mb-top-2x">
+				<a class="btn mb-lg default mb-right" href="/download">
+					Getting Started
+				</a>
+				<a class="btn mb-lg primary" href="/download" target="_blank">
+					Download
+				</a>
 			</div>
+
+			<p class="mb-text-center mb-text-muted">
+				currently version 0.9.7
+			</p>
 		</section>
 
-		<section class="lighter">
+		<section class="lighter mb-outline">
 			<div class="container">
 				<p class="mb-text-bold">
 					Mockingbird is a front-end framework for responsive layouts and easy web development created with SASS.
