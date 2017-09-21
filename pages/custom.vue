@@ -135,9 +135,9 @@
 </template>
 
 <script>
-	import axios from '~plugins/axios'
+	import axios from '~/plugins/axios'
 
-	import BetaSection from '~components/BetaSection.vue'
+	import BetaSection from '~/components/BetaSection.vue'
 
 	export default {
 

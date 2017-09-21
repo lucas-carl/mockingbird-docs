@@ -665,7 +665,7 @@
 </template>
 
 <script>
-	import BetaSection from '~components/BetaSection.vue'
+	import BetaSection from '~/components/BetaSection.vue'
 
 	export default {
 
