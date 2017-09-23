@@ -9,10 +9,10 @@
 			</div>
 
 			<div class="mb-flex-center mb-top-2x">
-				<a class="btn mb-lg default mb-right" href="/download">
+				<a class="btn mb-lg default mb-right" href="/guide">
 					Getting Started
 				</a>
-				<a class="btn mb-lg primary" href="/download" target="_blank">
+				<a class="btn mb-lg primary" href="/download">
 					Download
 				</a>
 			</div>

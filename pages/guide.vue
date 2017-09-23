@@ -50,7 +50,12 @@
 				</p>
 
 				<h5 id="grid">
-					Grid
+					<div class="flex-row mb-text-md">
+						Grid
+						<span class="badge lightest mb-outline small-dot mb-left-0x"></span>
+						<span class="badge secondary small-dot mb-left-0x"></span>
+						<span class="badge success small-dot mb-left-0x"></span>
+					</div>
 					<hr>
 				</h5>
 
@@ -139,7 +144,12 @@
 				</div>
 
 				<h5 id="res-utils">
-					Responsive Utilities
+					<div class="flex-row mb-text-md">
+						Responsive Utilities
+						<span class="badge lightest mb-outline small-dot mb-left-0x"></span>
+						<span class="badge secondary small-dot mb-left-0x"></span>
+						<span class="badge success small-dot mb-left-0x"></span>
+					</div>
 					<hr>
 				</h5>
 
@@ -228,7 +238,12 @@
 				</div>
 
 				<h5 id="modifiers">
-					Utilities & Modifiers
+					<div class="flex-row mb-text-md">
+						Utilities & Modifiers
+						<span class="badge lightest mb-outline small-dot mb-left-0x"></span>
+						<span class="badge secondary small-dot mb-left-0x"></span>
+						<span class="badge success small-dot mb-left-0x"></span>
+					</div>
 					<hr>
 				</h5>
 
@@ -354,7 +369,11 @@
 				</div>
 
 				<h5 id="typo">
-					Typography
+					<div class="flex-row mb-text-md">
+						Typography
+						<span class="badge secondary small-dot mb-left-0x"></span>
+						<span class="badge success small-dot mb-left-0x"></span>
+					</div>
 					<hr>
 				</h5>
 
@@ -460,7 +479,11 @@
 				</div>
 
 				<h5 id="form">
-					Form elements
+					<div class="flex-row mb-text-md">
+						Form elements
+						<span class="badge secondary small-dot mb-left-0x"></span>
+						<span class="badge success small-dot mb-left-0x"></span>
+					</div>
 					<hr>
 				</h5>
 
@@ -523,7 +546,11 @@
 				</div>
 
 				<h5 id="tables">
-					Tables
+					<div class="flex-row mb-text-md">
+						Tables
+						<span class="badge secondary small-dot mb-left-0x"></span>
+						<span class="badge success small-dot mb-left-0x"></span>
+					</div>
 					<hr>
 				</h5>
 
