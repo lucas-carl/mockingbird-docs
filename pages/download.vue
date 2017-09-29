@@ -121,8 +121,6 @@
 				</div>
 			</div>
 		</section>
-
-		<beta-section></beta-section>
 	</main>
 </template>
 

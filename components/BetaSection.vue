@@ -1,11 +1,10 @@
 <template>
-	<section class="danger">
+	<section class="dark">
 		<div class="container">
-			<h3>Please note</h3>
+			<h5 class="badge primary mb-text-md">Please note</h5>
 
 			<p>
 				The Mockingbird project is fully <b>Work in Progress</b>.<br>
-
 				This is a beta release. Anything may change or be removed.
 			</p>
 

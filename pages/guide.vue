@@ -9,7 +9,9 @@
 			</div>
 		</section>
 
-		<section>
+		<beta-section></beta-section>
+
+		<section class="mb-no-padding">
 			<div class="container">
 
 				<h4>Cheat Sheet</h4>
@@ -49,15 +51,15 @@
 					a word in curly brackets (e.g. <code>{size}</code>) correlates to a set of values. In this example it would be (<i>sm</i>, <i>md</i>, <i>lg</i>)
 				</p>
 
-				<h5 id="grid">
-					<div class="flex-row mb-text-md">
-						Grid
-						<span class="badge lightest mb-outline small-dot mb-left-0x"></span>
-						<span class="badge secondary small-dot mb-left-0x"></span>
-						<span class="badge success small-dot mb-left-0x"></span>
-					</div>
-					<hr>
-				</h5>
+			</div>
+		</section>
+
+		<section class="mb-no-padding">
+			<div class="container">
+
+				<h4 id="grid">
+					Grid
+				</h4>
 
 				<div class="row">
 					<div class="col-sm-6">
@@ -143,15 +145,9 @@
 					</div>
 				</div>
 
-				<h5 id="res-utils">
-					<div class="flex-row mb-text-md">
-						Responsive Utilities
-						<span class="badge lightest mb-outline small-dot mb-left-0x"></span>
-						<span class="badge secondary small-dot mb-left-0x"></span>
-						<span class="badge success small-dot mb-left-0x"></span>
-					</div>
-					<hr>
-				</h5>
+				<h4 id="res-utils">
+					Responsive Utilities
+				</h4>
 
 				<div class="row">
 					<div class="col-sm-6">
@@ -237,15 +233,9 @@
 					</div>
 				</div>
 
-				<h5 id="modifiers">
-					<div class="flex-row mb-text-md">
-						Utilities & Modifiers
-						<span class="badge lightest mb-outline small-dot mb-left-0x"></span>
-						<span class="badge secondary small-dot mb-left-0x"></span>
-						<span class="badge success small-dot mb-left-0x"></span>
-					</div>
-					<hr>
-				</h5>
+				<h4 id="modifiers">
+					Utilities & Modifiers
+				</h4>
 
 				<div class="row">
 					<div class="col-sm-6">
@@ -366,20 +356,22 @@
 							</p>
 						</div>
 					</div>
+					<div class="col-sm-6"></div>
 				</div>
 
-				<h5 id="typo">
-					<div class="flex-row mb-text-md">
-						Typography
-						<span class="badge secondary small-dot mb-left-0x"></span>
-						<span class="badge success small-dot mb-left-0x"></span>
-					</div>
-					<hr>
-				</h5>
+			</div>
+		</section>
+
+		<section class="secondary mb-no-padding">
+			<div class="container">
+
+				<h4 id="typo">
+					Typography
+				</h4>
 
 				<div class="row">
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">&lt;h1&gt;, &lt;h2&gt;, ... &lt;h6&gt;</h5>
 
 							<p>
@@ -388,7 +380,7 @@
 						</div>
 					</div>
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">.small, &lt;small&gt;</h5>
 
 							<p>
@@ -400,7 +392,7 @@
 
 				<div class="row">
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">.strong, &lt;strong&gt;, &lt;b&gt;</h5>
 
 							<p>
@@ -409,7 +401,7 @@
 						</div>
 					</div>
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">.mark, &lt;mark&gt;</h5>
 
 							<p>
@@ -421,7 +413,7 @@
 
 				<div class="row">
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">&lt;code&gt;</h5>
 
 							<p>
@@ -432,7 +424,7 @@
 						</div>
 					</div>
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">&lt;sup&gt;, &lt;sub&gt;</h5>
 
 							<p>
@@ -444,7 +436,7 @@
 
 				<div class="row">
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">&lt;blockquote&gt;</h5>
 
 							<p>
@@ -456,7 +448,7 @@
 						</div>
 					</div>
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">.font-fam-{type}</h5>
 
 							<p>
@@ -468,7 +460,7 @@
 
 				<div class="row">
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">.link-arrow</h5>
 
 							<p>
@@ -476,20 +468,16 @@
 							</p>
 						</div>
 					</div>
+					<div class="col-sm-6"></div>
 				</div>
 
-				<h5 id="form">
-					<div class="flex-row mb-text-md">
-						Form elements
-						<span class="badge secondary small-dot mb-left-0x"></span>
-						<span class="badge success small-dot mb-left-0x"></span>
-					</div>
-					<hr>
-				</h5>
+				<h4 id="form">
+					Form elements
+				</h4>
 
 				<div class="row">
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">.btn, &lt;button&gt;</h5>
 
 							<p>
@@ -505,7 +493,7 @@
 						</div>
 					</div>
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">&lt;input&gt;, &lt;textarea&gt;, &lt;select&gt;</h5>
 
 							<p>
@@ -528,7 +516,7 @@
 
 				<div class="row">
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">&lt;input type=radio&gt;, &lt;input type=checkbox&gt;</h5>
 
 							<p>
@@ -545,18 +533,13 @@
 					</div>
 				</div>
 
-				<h5 id="tables">
-					<div class="flex-row mb-text-md">
-						Tables
-						<span class="badge secondary small-dot mb-left-0x"></span>
-						<span class="badge success small-dot mb-left-0x"></span>
-					</div>
-					<hr>
-				</h5>
+				<h4 id="tables">
+					Tables
+				</h4>
 
 				<div class="row">
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">&lt;table&gt;</h5>
 
 							<p>
@@ -567,7 +550,7 @@
 						</div>
 					</div>
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">.table-striped</h5>
 
 							<p>
@@ -579,7 +562,7 @@
 
 				<div class="row">
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">.table-hover</h5>
 
 							<p>
@@ -588,7 +571,7 @@
 						</div>
 					</div>
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">.mb-sm</h5>
 
 							<p>
@@ -600,7 +583,7 @@
 
 				<div class="row">
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">.mb-no-border</h5>
 
 							<p>
@@ -609,7 +592,7 @@
 						</div>
 					</div>
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">.mb-outline</h5>
 
 							<p>
@@ -621,7 +604,7 @@
 
 				<div class="row">
 					<div class="col-sm-6">
-						<div class="card card-block">
+						<div class="card card-block bg-secondary">
 							<h5 class="card-title">.{<a href="#colors" @click.prevent="scrollTo('#colors')">color</a>}</h5>
 
 							<p>
@@ -629,12 +612,18 @@
 							</p>
 						</div>
 					</div>
+					<div class="col-sm-6"></div>
 				</div>
 
-				<h5 id="legend">
+			</div>
+		</section>
+
+		<section class="mb-no-padding">
+			<div class="container">
+
+				<h4 id="legend">
 					Legend
-					<hr>
-				</h5>
+				</h4>
 
 				<div class="row">
 					<div class="col-sm-6">
@@ -686,8 +675,6 @@
 
 			</div>
 		</section>
-
-		<beta-section></beta-section>
 	</main>
 </template>
 
