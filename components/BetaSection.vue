@@ -1,7 +1,7 @@
 <template>
 	<section class="dark">
 		<div class="container">
-			<h5 class="badge primary mb-text-md">Please note</h5>
+			<h5 class="badge primary mb-text-md mb-text-normal">Please note</h5>
 
 			<p>
 				The Mockingbird project is fully <b>Work in Progress</b>.<br>

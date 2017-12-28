@@ -3,7 +3,7 @@
 		<section class="lighter">
 			<div class="container">
 				<h2>
-					Customized Download
+					Customized Download (Coming soon)
 					<span>Get your custom CSS framework</span>
 				</h2>
 			</div>
@@ -121,7 +121,7 @@
 								<!-- <a class="mb-text-muted" href="#" @click.prevent="showAdvanced = ! showAdvanced">advanced options</a> -->
 							</div>
 							<div class="col">
-								<button class="primary mb-pull-right" type="submit">Download</button>
+								<button class="primary mb-pull-right" type="submit" disabled title="Coming soon">Download</button>
 								<button class="mb-no-border mb-transparent mb-text-muted mb-pull-right" type="reset">reset</button>
 							</div>
 						</div>
@@ -133,7 +133,7 @@
 </template>
 
 <script>
-	import axios from '~/plugins/axios'
+	// import axios from '~/plugins/axios'
 
 	import BetaSection from '~/components/BetaSection.vue'
 
@@ -175,13 +175,13 @@
 
 		methods: {
 			submitForm() {
-				let data = new FormData(this.$refs.customizer)
-				data.append('content', 'test')
-
-				axios.post('https://static.lucascarl.com/mockingbird/custom_download.php', data).then((response) => {
-					console.info(response.data)
-					this.downloadFile(response.data)
-				})
+				// let data = new FormData(this.$refs.customizer)
+				// data.append('content', 'test')
+        //
+				// axios.post('https://static.lucascarl.com/mockingbird/custom_download.php', data).then((response) => {
+				// 	console.info(response.data)
+				// 	this.downloadFile(response.data)
+				// })
 			},
 
 			preset(type) {
